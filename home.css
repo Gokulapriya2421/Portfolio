@@ -1,4 +1,4 @@
-body{background-color: dimgray;}
+body{background-color: lightblue;}
 
 
 img.center{
@@ -16,24 +16,29 @@ h1{
     width: 24%;
     height: 60%;
     background-color: darkseagreen;
+    border-radius: 8px;
 }
 #resume{
     width: 24%;
     height: 60%;
     background-color: darkseagreen;
+    border-radius: 8px
 }
 #edu{
     width: 24%;
     height: 60%;
     background-color: darkseagreen;
+    border-radius: 8px
 }
 #contact{
     width: 20%;
     height: 60%;
     background-color: darkseagreen;
+    border-radius: 8px
 }
 #abt{
     background-color: khaki;
+
 }
 #ed{
     background-color: khaki;

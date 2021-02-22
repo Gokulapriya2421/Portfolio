@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="home.css"> <!--inserting css file -->
+    <title>My Portfolio</title> <!--display in URL-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!--alignment adjustment-->
+    <meta charset='utf-8'/> <!--display diff lang-->
+<body>
+
+    
+
+    <img src="./pic.jpeg" alt="picture" class="center" />
+    <h1><b>GOKULA PRIYA S</b><br>B.E ELECTRICAL ENGINEER<br>(2018-2022)</h1>
+    <input type="button" value="ABOUT" id="about"><div id="abt" hidden><p>Hi, I am Gokula priya doing bachelors degree at Kumaraguru Institution. An enthusiastic Electrical Engineer who is ambitious to aquire skills and knowledge to excel professionally to make a successful career. Bestowed with strong leadership skills , logical thinking and problem solving abilities. Worked in IOT related Projects and simulation projects. Currently developing skills in web developing by doing projects in Django framework with python,html5,css3,and javascript.</p></div>
+    <script>
+        document.getElementById("about").addEventListener("click",function(){
+            var x1=document.getElementById("abt")
+            if(x1.style.display=="none")
+            {
+                x1.style.display="block";
+            }
+            else{
+                x1.style.display="none";
+            }
+        })
+    </script>
+    
+    
+    <input type="button" value="RESUME" id="resume">
+    <div id="img" hidden>
+        <img src="C:\Users\Admin\Pictures\Saved Pictures\pic.jpeg"></div>
+    <script>
+        document.getElementById("resume").addEventListener("click",function(){
+            var x2= document.getElementById("img")
+            if (x2.style.display=="none"){
+                x2.style.display="block";
+            }
+            else{
+                x2.style.display="none";
+            }
+        })
+
+        
+    </script>
+    <input type="button" value="EDUCATION" id="edu">
+    <div id="ed" hidden>
+        <ol>
+            
+            <li><b>SSLC (2015-2016)</b></li><ul>
+                <li>Studied at Indian Matric Higher Secondary School, Harur, Dharmapuri.</li>
+                <li>Percentage : 97</li>
+            </ul>
+
+            
+            <li><b>HSC (2017-2018)</b></li><ul>
+                <li>Studied at Indian Matric Higher Secondary School, Harur, Dharmapuri.</li>
+                <li>Percentage : 93</li>
+            </ul>
+
+            
+            
+            <li><b>B.E ELECTRICAL ENGINEER (2018-Present)</b></li>
+            <ul>
+                <li>Pursuing Bachelors degree in EEE at Kumaraguru Institution with grade of 8.8.</li>
+                <ul>
+                    <li>Best Field work in inter department hackathon</li>
+                    <li>Participated in ELECT-ERA Presentation in Coimbatore Institute of Technology under topic WIRELESS TECHNOLOGY</li>
+                    <li>As a team, we made Automated child Safety Device in Proteus Simulation Software</li>
+                </ul>
+            </ul>
+
+            
+            
+        
+        </ol>
+    </div>
+    <script>
+        document.getElementById("edu").addEventListener("click",function(){
+            var x3= document.getElementById("ed")
+            if (x3.style.display=="none"){
+                x3.style.display="block";
+            }
+            else{
+                x3.style.display="none";
+            }
+        })
+    </script>
+    <input type="button" value="CONTACT" id="contact">
+    <div id="con" hidden>
+        <ul>
+            <li><b>CONTACT: </b><i>9787460831</i></li>
+            <li type="mail"><b>MAIL I'D: </b>gokulapriyasekar2001@gamil.com</li>
+            <li><b>LINKEDIN: </b><a href="https://www.linkedin.com/in/gokula-priya-s-2b27491b5">https://www.linkedin.com/in/gokula-priya-s-2b27491b5</a></li>
+            <li><b>GITHUB: </b><a href="https://github.com/Gokulapriya2421">https://github.com/Gokulapriya2421</a></li>
+        </ul>
+        
+    </div>
+    <script>
+        document.getElementById("contact").addEventListener("click",function(){
+            var x4= document.getElementById("con")
+            if (x4.style.display=="none"){
+                x4.style.display="block";
+            }
+            else{
+                x4.style.display="none";
+            }
+        })
+    </script>
+
+    
+
+    
+
+
+
+</body>
+</html>
